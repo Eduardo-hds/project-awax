@@ -264,6 +264,7 @@ iframe{
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
+    height: 100%;
 }
 .pj-head{
     font-size: var(--font-size-big-1);
@@ -384,4 +385,67 @@ iframe{
 .our-team-back{
     background-color: rgb(0, 0, 0, 0.7);
     height: 100%;
+}
+#creators{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.creators{
+    height: 400px;
+    width: 350px;
+    background-color: var(--bg-color-medium);
+    border-radius: 5px;
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cr-img{
+    margin-top: 40px;
+    
+}
+.cr-name{
+    font-size: var(--font-size-medium-2);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 20px;
+    margin: 2px;
+}
+.cr-position{
+    font-size: var(--font-size-small-3);
+    padding-top: 5px;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.social-media div{
+    width: 25px;
+    height: 25px;
+    background-color: #bbb;
+    padding: 15px;
+    border-radius: 12.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.social-media img{
+    height: 15px;
+    width: 15px;
+}
+.social-media div:hover{
+    background-color: #b98b59;
+}
+#pj-header{
+    height: 100px;
+}
+.creatos-flex{
+    flex: 1;
+}
+.team-slide{
+    height: 50px;
 }
