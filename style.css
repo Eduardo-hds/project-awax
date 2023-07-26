@@ -554,3 +554,20 @@ z-index: 100;
 .pr-button:hover{
     background-color: #b98b59;
 }
+#item{
+    display: flex;
+    justify-content: center;
+}
+.item-box{
+    display: flex;
+    flex-direction: row;
+}
+.it-feature-box{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.it-feature-head{
+    font-size: var(--font-size-medium-2);
+    font-weight: 600;
+}
