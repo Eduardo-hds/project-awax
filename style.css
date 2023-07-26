@@ -110,7 +110,7 @@ nav ul li a:hover{
     margin-bottom: 40px;
 }
 .bg-main-botton{
-    background-color: var(--font-color);
+    background-color: #000000cf;
     border-radius: 40px;
 }
 .bg-main-botton a{
@@ -121,6 +121,9 @@ nav ul li a:hover{
     text-decoration: none;
     text-transform: uppercase;
     padding: 20px 50px;
+}
+.bg-main-botton:hover{
+    background-color: var(--font-color);
 }
 .bg-slide{
     display: flex;
@@ -364,7 +367,7 @@ iframe{
     text-align: center;
 }
 .more{
-    background-color: var(--font-color);
+    background-color: #000000cf;
     border-radius: 20px;
     margin-bottom: 40px;
 }
@@ -376,6 +379,9 @@ iframe{
     color: #fff;
     padding: 15px 25px;
     text-transform: uppercase;
+}
+.more:hover{
+    background-color: var(--font-color);
 }
 #our-team{
     background-image: url(complementos/bg.jpg);
@@ -496,7 +502,7 @@ z-index: 100;
 }
 .box{
     height: auto;
-    width: 300px;
+    flex: 1;
     background-color: #fff;
     margin: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
@@ -571,4 +577,59 @@ z-index: 100;
     font-size: var(--font-size-medium-3);
     font-weight: 600;
     text-transform: uppercase;
+    margin-top: 20px;
+}
+.it-feature-box{
+    margin-left: 100px;
+}
+.feature-desc, .ft-item{
+    font-size: var(--font-size-small-4);
+    color: #8f8f8f;
+    line-height: 20px;
+}
+.ft-item{
+    text-transform: uppercase;
+    margin: 5px 0px;
+    margin-left: 50px;
+}
+.feature-desc{
+    margin: 10px 0PX;
+    margin-left: 50px;
+}
+.ft-item::first-letter{
+    font-weight: 600;
+}
+.it-feature-head::before{
+    content: url(icones/check.png);
+    position: relative;
+    width: 50px;
+    height: 20px;
+}
+.bar{
+    background-color: var(--font-color-medium);
+    height: 1px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.get-in{
+    background-color: #000000cf;
+    display: flex;
+    border-radius: 40px;
+    margin-top: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.get-in a{
+    font-size: var(--font-size-medium-1);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 18px;
+}
+.get-in:hover{
+    background-color: #b98b59;
 }
