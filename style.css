@@ -1,10 +1,10 @@
 :root{
     --bg-color-black:#000000;
-    --bg-color-medium:#eaeaea;
+    --bg-color-medium:#a19b9b;
     --bg-color-white:#ffffff;
     --font-color:#b98b59;
     --font-color-black:#000000;
-    --font-color-medium:#8f8f8f;
+    --font-color-medium:#c4c4c4;
     --font-color-white:#dbdbdb;
     --font-size-big-4:7.0rem;
     --font-size-big-3:5.0rem;
@@ -30,10 +30,15 @@ header{
     display: flex;
     justify-content: center;
 }
-.container{
+.container-head{
     width: 1100px;
     display: flex;
     justify-content: space-between;
+}
+.container{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
 }
 nav{
     display: flex;
@@ -137,7 +142,13 @@ nav ul li:hover a{
     background-color: var(--font-color);
 }
 #abou-us{
-
+    display: flex;
+    justify-content: center;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
 }
 .st-head{
     font-size: var(--font-size-big-2);
@@ -145,7 +156,10 @@ nav ul li:hover a{
     text-transform: uppercase;
 }
 .st-suble{
-    font-size: var(--font-size-medium-3);
+    font-size: var(--font-size-medium-2);
     font-weight: 600;
-    
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--font-color-medium);
+    padding-top: 5px;
 }
