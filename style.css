@@ -155,6 +155,7 @@ nav ul li:hover a{
     display: flex;
     flex-direction: column;
     margin-bottom: 60px;
+    align-items: center;
 }
 .st-head{
     font-size: var(--font-size-big-2);
@@ -237,6 +238,7 @@ iframe{
     background-color: var(--font-color-white);
     border-radius: 30px;
     padding: 0px 20px;
+    width: max-content;
 }
 .img-list ul{
     list-style: none;
@@ -246,6 +248,13 @@ iframe{
 .img-list ul li{
     border-left: 1px solid black;
 }
+.img-list ul li:hover{
+    border-bottom: 2px solid var(--font-color);
+}
+.img-list ul li:hover a{
+    padding-bottom: 13px;
+    color: var(--font-color);
+}
 .img-list ul li:nth-child(1){
     border-left: 0px;
 }
@@ -253,16 +262,24 @@ iframe{
     font-size: var(--font-size-small-4);
     text-decoration: none;
     display: block;
-    margin: 20px;
+    padding: 15px;
     text-transform: uppercase;
     color: #000000;
 }
 .img-grid-layout{
     position: relative;
+    margin: 10px;
+}
+.img-grid-layout:nth-child(9){
+    margin-bottom: 40px;
 }
 .img-over{
     position: relative;
     height: 100%;
+}
+.img-over img{
+    width: 225px;
+    height: 140px;
 }
 .over{
     position: absolute;
@@ -274,15 +291,42 @@ iframe{
     height: 0;
     overflow: hidden;
     transition: 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .over-head{
-    font-size: var(--font-size-big-4);
-    color: #fff;
-}
-.over-text{
     font-size: var(--font-size-big-1);
     color: #fff;
 }
+.over-text{
+    font-size: var(--font-size-small-4);
+    color: #fff;
+    text-align: center;
+}
+.container-3{
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
 .img-grid-layout:hover .over{
     height: 100%;
+}
+#our-team{
+    display: flex;
+    justify-content: center;
+    background-image: url(complementos/bg.jpg);
+    height: 100vh;
+}
+.container-our-team{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
