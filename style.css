@@ -76,6 +76,7 @@ nav ul li:hover a{
 }
 #bg-main{
     background-image: url(complementos/bg.jpg);
+    background-size: cover;
     height: 100vh;
 }
 .container-no-width{
@@ -320,6 +321,7 @@ iframe{
     display: flex;
     justify-content: center;
     background-image: url(complementos/bg.jpg);
+    background-size: cover;
     height: 100vh;
 }
 .container-our-team{
