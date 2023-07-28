@@ -332,3 +332,15 @@ iframe{
     align-items: center;
     flex-direction: column;
 }
+.column{
+    flex-direction: column;
+}
+#our-team-cards{
+    display: flex;
+    justify-content: center;
+}
+.out-team-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
