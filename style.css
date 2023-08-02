@@ -511,11 +511,18 @@ iframe{
 #tell-about-us{
     display: flex;
     justify-content: center;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.205);
+}
+.tell-about-us{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .social{
     display: flex;
     flex-direction:row;
     align-items: center;
+    margin-right: 20px;
 }
 .social span{
     font-size: var(--font-size-small-3);
@@ -523,4 +530,84 @@ iframe{
     margin-left: 10px;
     font-weight: 500;
     color: var(--font-color-medium);
+}
+.share{
+    padding: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook{
+    background-color: rgb(0, 0, 255);
+    padding: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin{
+    background-color: rgba(0, 0, 255, 0.575);
+    padding: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter{
+    background-color: rgba(0, 213, 255, 0.914);
+    padding: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google{
+    background-color: rgba(255, 0, 0, 0.666);
+    padding: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pinterest{
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-us{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    margin-top: 40px;
+}
+input{
+    font-size: var(--font-size-medium-1);
+    border: 0px;
+    border-bottom: 2px solid var(--font-color-medium);
+    margin: 20px;
+}
+.form-first{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+.form-second input{
+    width: 500px;
 }
