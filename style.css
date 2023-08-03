@@ -596,6 +596,12 @@ iframe{
 }
 .form{
     margin-top: 40px;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 input{
     font-size: var(--font-size-medium-1);
@@ -606,8 +612,11 @@ input{
 .form-first{
     display: flex;
     flex-direction: row;
-    width: 500px;
+    width: 540px;
 }
 .form-second input{
+    width: 500px;
+}
+.form-thirt input{
     width: 500px;
 }
