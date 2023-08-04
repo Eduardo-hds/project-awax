@@ -530,7 +530,7 @@ iframe{
     text-transform: uppercase;
     margin-left: 10px;
     font-weight: 500;
-    color: var(--font-color-medium);
+    color: #424242;
 }
 .share{
     padding: 10px;
@@ -623,6 +623,8 @@ input{
 }
 #maps{
     background-image: url(complementos/bg.jpg);
+    background-size: cover;
+    background-position: bottom center;
 }
 p{
     font-size: var(--font-size-medium-2);
@@ -719,4 +721,156 @@ footer{
     bottom: 0;
     text-transform: uppercase;
     margin-left: inherit;
+}
+@media (max-width:1110px) {
+    .container{
+        width: 900px;
+        max-width: 900px;
+    }
+    .container-2{
+        width: 900px;
+    }
+    .container-head{
+        width: 900px;
+        max-width: 900px;
+        margin: 0px 20px;
+    }
+    nav ul li a{
+        font-size: var(--font-size-small-2);
+        text-align: center;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .services-selo{
+        border: 0;
+        margin-top: 20px;
+    }
+    .services-selo:nth-child(4) {
+        border-right: 0;
+    }
+    .column{
+        align-items: center;
+    }
+    .card{
+        max-width: 250px;
+        text-align: center;
+    }
+    .price-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ft-head{
+        margin-left: 50px;
+    }
+    .ft-desc{
+        margin-left: 100px;
+    }
+    .ft-feature{
+        margin-left: 100px;
+    }
+    .sf-column{
+        max-width: fit-content;
+        padding: 20px;
+    }
+    .tell-about-us{
+        justify-content: center;
+    }
+    #maps{
+        display: flex;
+        justify-content: center;
+    }
+    address{
+        margin: auto;
+        padding-right: 40px;
+    }
+}
+@media (max-width:1020px) {
+    nav ul{
+        display: none;
+    }
+}
+@media (max-width:916px) {
+    .container{
+        width: 700px;
+        max-width: 700px;
+    }
+    .container-2{
+        width: 700px;
+    }
+    .container-head{
+        width: 700px;
+        max-width: 700px;
+        margin: 0px 20px;
+    }
+    .container{
+        width: 700px;
+        max-width: 700px;
+    }
+    .container-2{
+        width: 700px;
+    }
+    .about-us-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-us-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+        margin: 30px;
+    }
+    .footer-flex {
+        flex-direction: column;
+    }
+    .ft-icons{
+        width: 100%;
+        justify-content: center;
+    }
+    .awax{
+        margin-bottom: 30px;
+    }
+    .ft-icons-container{
+        width: 100%;
+    }
+    .ft-sub{
+        margin: 0px 100px;
+        padding: 30px;
+        margin-top: 40px;
+    }
+    .out-team-cards{
+        flex-direction: column;
+    }
+    .card{
+        max-width: 500px;
+    }
+}
+@media (max-width:716px) {
+    .container{
+        width: 500px;
+        max-width: 500px;
+    }
+    .container-2{
+        width: 500px;
+    }
+    .container-head{
+        width: 500px;
+        max-width: 500px;
+        margin: 0px 20px;
+    }
+    .container{
+        width: 500px;
+        max-width: 500px;
+    }
+    .container-2{
+        width: 500px;
+    }
+    address{
+        max-width: 480px;
+    }
+    p{
+        font-size: var(--font-size-medium-1);
+    }
 }
