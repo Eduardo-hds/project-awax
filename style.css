@@ -485,6 +485,7 @@ iframe{
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 40px;
+    justify-content: center;
 }
 .sf-column{
     text-align: center;
@@ -619,4 +620,103 @@ input{
 }
 .form-thirt input{
     width: 500px;
+}
+#maps{
+    background-image: url(complementos/bg.jpg);
+}
+p{
+    font-size: var(--font-size-medium-2);
+    color: #929292;
+    font-weight: 500;
+}
+address{
+    background-color: #fff;
+    padding: 40px;
+    margin-left: 150px;
+    padding-right: 150px;
+    width: max-content;
+}
+.img-background{
+    display: flex;
+    align-items: center;
+}
+.img-color{
+    margin: 10px;
+    background-color: #929292;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+address img{
+    margin: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #000000;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+}
+.ft-icons-container{
+    flex: 1;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ft-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.ft-text{
+    flex: 1;
+}
+.ft-sub{
+    flex: 1;
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ft-sub input{
+    background-color: #424242;
+    font-weight: 500;
+}
+.ft-sub input::placeholder{
+    color: #b1b1b1;
+    text-align: center;
+}
+.ft-imgs{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.ft-imgs:hover{
+    background-color: var(--font-color);
+}
+.ft-imgs img{
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+}
+.awax{
+    position: relative;
+    bottom: 0;
+    text-transform: uppercase;
+    margin-left: inherit;
 }
