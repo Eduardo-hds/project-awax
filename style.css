@@ -29,11 +29,13 @@ header{
     background-color: #000000;
     display: flex;
     justify-content: center;
+    height: 100px;
 }
 .container-head{
-    max-width: 1100px;
+    width: 1100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .container{
     max-width: 1100px;
@@ -42,38 +44,45 @@ header{
     padding: 20px;
     flex-direction: column;
 }
+.logo{
+    height: 100px;
+    width: 100px;
+}
 nav{
     display: flex;
-    align-items: center;
+    height: 100px;
+    flex: 1;
+    justify-content: flex-end;
 }
 nav ul{
     display: flex;
     list-style: none;
-    height: 100%;
     align-items: center;
 }
 nav ul li{
+    height: 100px;
     display: flex;
     align-items: center;
-    height: 100%;
 }
 nav ul li a{
+    display: flex;
     text-decoration: none;
     color: #fff;
     font-size: var(--font-size-small-3);
     font-weight: 500;
     text-transform: uppercase;
-    display: block;
-    padding: 20px;
+    height: inherit;
+    padding: 10px;
+    border-bottom: 5px solid black;
+    align-items: center;
 }
 
 nav ul li:hover{
     color: var(--font-color);
-    border-bottom:5px solid #b98b59;
 }
 nav ul li:hover a{
     color: var(--font-color);
-    padding-bottom: 15px;
+    border-bottom: 5px solid var(--font-color);
 }
 #bg-main{
     background-image: url(complementos/bg.jpg);
@@ -270,7 +279,7 @@ iframe{
 .img-list ul li a{
     font-size: var(--font-size-small-4);
     text-decoration: none;
-    display: block;
+    display: flex;
     padding: 15px;
     text-transform: uppercase;
     color: #000000;
@@ -723,6 +732,9 @@ footer{
     margin-left: inherit;
 }
 @media (max-width:1110px) {
+    *{
+        font-size: 52.5%;
+    }
     .container{
         width: 900px;
         max-width: 900px;
@@ -734,10 +746,6 @@ footer{
         width: 900px;
         max-width: 900px;
         margin: 0px 20px;
-    }
-    nav ul li a{
-        font-size: var(--font-size-small-2);
-        text-align: center;
     }
     .services{
         flex-direction: column;
@@ -786,11 +794,6 @@ footer{
         padding-right: 40px;
     }
 }
-@media (max-width:1020px) {
-    nav ul{
-        display: none;
-    }
-}
 @media (max-width:916px) {
     .container{
         width: 700px;
@@ -810,6 +813,9 @@ footer{
     }
     .container-2{
         width: 700px;
+    }
+    nav{
+        display: none;
     }
     .about-us-content{
         flex-direction: column;
@@ -849,16 +855,17 @@ footer{
         height: 60vh;
     }
     .bg-text-head, .bg-text-head-color{
-        font-size: var(--font-size-big-3);
-    }
+}
 }
 @media (max-width:716px) {
+    *{
+        font-size: 45%;
+    }
     .container{
-        width: 500px;
         max-width: 500px;
     }
     .container-2{
-        width: 500px;
+        max-width: 500px;
     }
     .container-head{
         width: 500px;
@@ -875,7 +882,46 @@ footer{
     address{
         max-width: 480px;
     }
+    .container-3{
+        flex-direction: column;
+    }
+    .img-grid-layout{
+        max-width: 400px;
+    }
+    .over{
+        width: inherit;
+    }
+    .img-over img{
+        width: 400px;
+        max-width: 400px;
+    }
+}
+@media (max-width:557px){
+    .img-list{
+        width: 300px;
+    }
+    .img-list ul{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .img-list ul li{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form-second,.form-first,
+    .form-thirt{
+        max-width: 440px;
+    }
+    .form-second input,.form-first input,
+    .form-thirt input{
+        width: 400px;
+    }
+    address{
+        max-width: 440px;
+    }
     p{
-        font-size: var(--font-size-medium-1);
+        max-width: 400px;
+        text-align: center;
+        padding-left: 20px;
     }
 }
