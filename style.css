@@ -845,6 +845,11 @@ footer{
     }
     .card{
         max-width: 500px;
+    }#bg-main{
+        height: 60vh;
+    }
+    .bg-text-head, .bg-text-head-color{
+        font-size: var(--font-size-big-3);
     }
 }
 @media (max-width:716px) {
