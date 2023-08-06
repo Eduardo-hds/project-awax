@@ -736,14 +736,12 @@ footer{
         font-size: 52.5%;
     }
     .container{
-        width: 900px;
         max-width: 900px;
     }
     .container-2{
-        width: 900px;
+        max-width: 900px;
     }
     .container-head{
-        width: 900px;
         max-width: 900px;
         margin: 0px 20px;
     }
@@ -772,6 +770,9 @@ footer{
     .ft-head{
         margin-left: 50px;
     }
+    .ft-text{
+        max-width:400px ;
+    }
     .ft-desc{
         margin-left: 100px;
     }
@@ -796,23 +797,17 @@ footer{
 }
 @media (max-width:916px) {
     .container{
-        width: 700px;
         max-width: 700px;
     }
     .container-2{
-        width: 700px;
+        max-width: 700px;
     }
     .container-head{
-        width: 700px;
         max-width: 700px;
         margin: 0px 20px;
     }
     .container{
-        width: 700px;
         max-width: 700px;
-    }
-    .container-2{
-        width: 700px;
     }
     nav{
         display: none;
@@ -839,7 +834,7 @@ footer{
         margin-bottom: 30px;
     }
     .ft-icons-container{
-        width: 100%;
+        max-width: 500px;
     }
     .ft-sub{
         margin: 0px 100px;
@@ -854,8 +849,9 @@ footer{
     }#bg-main{
         height: 60vh;
     }
-    .bg-text-head, .bg-text-head-color{
-}
+    footer{
+        max-width: 900px;
+    }
 }
 @media (max-width:716px) {
     *{
@@ -864,20 +860,18 @@ footer{
     .container{
         max-width: 500px;
     }
+    .container-column{
+        max-width: 700px;
+    }
     .container-2{
         max-width: 500px;
     }
     .container-head{
-        width: 500px;
         max-width: 500px;
         margin: 0px 20px;
     }
     .container{
-        width: 500px;
         max-width: 500px;
-    }
-    .container-2{
-        width: 500px;
     }
     address{
         max-width: 480px;
@@ -914,7 +908,7 @@ footer{
     }
     .form-second input,.form-first input,
     .form-thirt input{
-        width: 400px;
+        width: 300px;
     }
     address{
         max-width: 440px;
@@ -924,4 +918,16 @@ footer{
         text-align: center;
         padding-left: 20px;
     }
+    .form-first{
+        width: 340px;
+        margin: 10px;
+    }
+    .input-form{
+        width: 120px;
+        margin: 10px;
+    }
+    iframe{
+        width: 300px;
+    }
+
 }
